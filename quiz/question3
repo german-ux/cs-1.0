@@ -1,0 +1,1 @@
+The code will run into an error because input for moondays needs to be changed to an integer before it can be multiplied with 29.5

@@ -1,0 +1,5 @@
+name = "lebron" is a string
+age = 35 is an integer
+number = "23" is a string
+salary = 37.44 is a float
+plays_basketball = true is a boolean

@@ -1,0 +1,12 @@
+fantasy = 20
+mystery = 30
+history = 15 
+
+fantasy = mystery(30)
+fantasy = 45
+history = fantasy (45)
+
+final values
+mystery = 30
+fantasy = 45
+history = 45
