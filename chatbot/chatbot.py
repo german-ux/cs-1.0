@@ -29,7 +29,6 @@ def get_bot_response(user_response):
         return choice(bot_response_sad)
     else: 
         return "thats wasup"
-        pass
         
 
 print("Hello my name is Siri.")
