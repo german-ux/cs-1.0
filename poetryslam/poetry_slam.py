@@ -1,3 +1,5 @@
+import random
+
 #open file and print lines with line number
 def get_file_lines(filename):
     poem = filename
@@ -38,6 +40,20 @@ def lines_printed_backwards(lines_list):
         print( str(list_length) + " " + line)
         list_length-=1
 
+#print poem lines randomly
+def lines_printed_random(lines_list):
+    list_length = len(lines_list) -1
+    for i in range(list_length):
+        print(lines_list[random.randint(0, list_length)])
+
+#print even lines only
+def lines_printed_custom(lines_list):
+    list_length = len(lines_list)
+    line_number = 0
+    while line_number < list_length:
+        print(lines_list[line_number])
+        line_number +=2
+
 
 
 #want to use this list in and out of the function       
@@ -46,6 +62,9 @@ get_file_lines("poetryslam/poem.txt")
 #print statement to separate the regular and backward list
 print("------------------------------------------------------------------------")
 lines_printed_backwards(poem_list)
-
+print("------------------------------------------------------------------------")
+lines_printed_random(poem_list)
+print("------------------------------------------------------------------------")
+lines_printed_custom(poem_list)
 
     
